@@ -1,4 +1,4 @@
-# Postpartum Depression Analysis
+# Postpartum Depression
 
 This project focuses on understanding and predicting **Postpartum Depression (PPD)** using real-world survey data. I have analyzed psychological, behavioral, and demographic factors and built machine learning models to identify significant indicators and predict PPD based on the presence of **anxiety**.
 
