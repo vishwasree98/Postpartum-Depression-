@@ -17,9 +17,8 @@ This project focuses on understanding and predicting **Postpartum Depression (PP
 ## Dataset
 
 - **Source**: [Kaggle - Postpartum Depression Dataset](https://www.kaggle.com/datasets/parvezalmuqtadir2348/postpartum-depression)
-- **Format**: CSV
 - **Size**: 1,503 rows × 11 columns
-- **Target Variable**: `Feeling Anxious` (used as proxy for PPD)
+- **Target Variable**: `Feeling Anxious`
 - **All features are categorical**, covering aspects like mood, sleep, appetite, irritability, guilt, bonding with baby, and suicide attempts.
 
 ## Methodology
@@ -58,12 +57,4 @@ This project focuses on understanding and predicting **Postpartum Depression (PP
 - **Anxiety is a strong predictor** of PPD, validated by high model performance.
 - **SVM** was selected as the best model with **96% accuracy and precision**.
 - `Feeling of guilt` was the most important feature influencing anxiety.
-
-## Limitations
-
-- Dataset is hospital-based and limited to a specific time and region.
-- Data collected over just **two days**, limiting temporal insights.
-- Potential bias due to the **COVID-19 pandemic** environment.
-- Small sample size, and basic modeling due to learning constraints.
-
 
